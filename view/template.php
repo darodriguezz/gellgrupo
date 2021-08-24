@@ -43,8 +43,24 @@
         include "view/modules/header.php";
         include "view/modules/menu.php";
 
+        if(isset($_GET['ruta'])){
+            if($_GET['ruta']=="inicio"||
+               $_GET['ruta']=="formentrega"||
+               $_GET['ruta']=="formportatil"||
+               $_GET['ruta']=="formescritorio"){
+
+                include "view/modules/".$_GET['ruta'].".php";
+
+               }
+            
+        }
+
         // Contenido
+        include "view/modules/inicio.php";
         
+
+
+
 
         include "view/modules/footer.php";
 

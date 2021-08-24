@@ -20,11 +20,19 @@
                         <a href="#"><i class="fa fa-sitemap fa-fw"></i> Actas <span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="../forms.php"><i class="fa fa-edit fa-fw"></i>Actas de Entrega</a>
+                                <a href="formentrega"><i class="fa fa-edit fa-fw"></i>Actas de Entrega</a>
                                 
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-edit fa-fw"></i>Acta de Mantenimiento</a>
+                                <a href="#"><i class="fa fa-edit fa-fw"></i>Acta de Mantenimiento<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="formescritorio">Computador Escritorio</a>
+                                    </li>
+                                    <li>
+                                        <a href="formportatil">Computador Portatil</a>
+                                    </li>
+                                </ul>
                             </li>
                             
                         </ul>
